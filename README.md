@@ -26,8 +26,8 @@ The app allows you to manage contacts, view charts showing COVID-19 cases fluctu
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/abhisheksharma1310/contact-management-app-with-charts-and-maps
-   cd contact-management-app-with-charts-and-maps
+   gh repo clone bsnehith/TaiyoAi-Conatct-Management-App
+   cd TaiyoAi-Conatct-Management-App
    ```
 
 2. Install dependencies:
@@ -57,7 +57,7 @@ The app allows you to manage contacts, view charts showing COVID-19 cases fluctu
 
 ### Deployment
 
-This project is deployed on Netlify. <a href="https://glittery-kringle-992617.netlify.app/">Click here to view a live demo</a>.
+This project is deployed on Netlify. <a href="https://frontend-sigma-ten-86.vercel.app/">Click here to view a live demo</a>.
 
 ### Technologies Used
 
