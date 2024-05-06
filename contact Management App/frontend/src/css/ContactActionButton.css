@@ -1,0 +1,33 @@
+/* ContactActionButton.css */
+.action-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    color: #555; /* Initial color */
+
+    /* Transition for color change and scale */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.action-icon:hover {
+    color: #ff6347; /* Color on hover */
+    transform: scale(1.2); /* Scale transformation on hover */
+}
+
+/* Text animations */
+.action-icon:hover::after {
+    content: attr(data-text);
+    position: absolute;
+    top: calc(100% + 5px); /* Adjust the position of the text */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: #333;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.action-icon:hover::after {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-10px); /* Adjust the translateY for better appearance */
+}
